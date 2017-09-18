@@ -30,7 +30,5 @@ public class OrderController {
     public OrderDetailResponse detail(@PathVariable long orderId) {
            return orderService.orderDetail(orderId);
     }
-
-
-
+    
 }
